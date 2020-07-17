@@ -4,6 +4,15 @@ This proof of concept shows a Web chat using Socket.IO to send events to a Gatew
 
 <img src=".github/assets/events-schema.png" /> 
 
+## How to run it
+
+```
+git clone git@github.com:auyer/web-events-stream-poc.git
+cd web-events-stream-poc
+docker-compose up
+# Open browser in `localhost:8000`
+```
+
 Resources: 
 
 - [socket.io](https://socket.io/) : WebSocket connection if possible, and will fall back on HTTP long polling if not.
